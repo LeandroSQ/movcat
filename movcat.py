@@ -185,8 +185,6 @@ def main():
     # Clear terminal
     clearTerminal()
 
-    args.filename = "/Volumes/Media/Movies/Hercules.1997.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv"
-
     # Set terminal title
     setTerminalTitle(f"MovCat - {prettifyFilename(args.filename)}")
 
